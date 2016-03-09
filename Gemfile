@@ -20,6 +20,18 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+# Use HAML
+gem 'haml', '~> 4.0', '>= 4.0.7'
+# Simple form
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+# Add images
+gem 'paperclip', '~> 4.3', '>= 4.3.5'
+# Bootstrap for styles
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+# Nested forms using jQuery
+gem 'cocoon', '~> 1.2', '>= 1.2.6'
+# Creates Users
+gem 'devise', '~> 3.5', '>= 3.5.6'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
